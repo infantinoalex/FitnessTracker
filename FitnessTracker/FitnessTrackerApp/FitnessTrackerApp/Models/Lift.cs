@@ -1,4 +1,5 @@
 ﻿using FitnessTrackerApp.Helpers;
+using SQLite;
 using System;
 
 namespace FitnessTrackerApp.Models
@@ -88,6 +89,7 @@ namespace FitnessTrackerApp.Models
             this.SuperSet = superSet;
         }
 
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
         public int WorkoutId { get; set; }

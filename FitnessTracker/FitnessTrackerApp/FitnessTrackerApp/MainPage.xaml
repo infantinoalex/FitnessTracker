@@ -4,22 +4,8 @@
              x:Class="FitnessTrackerApp.MainPage">
     
     <StackLayout Margin="10,35,10,10">
-        <Label Text="Notes"
+        <Label Text="Fitness App"
                HorizontalOptions="Center"
                FontAttributes="Bold" />
-        <Editor x:Name="editor"
-                Placeholder="Enter your note"
-                HeightRequest="100" />
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Button Text="Save"
-                    Clicked="OnSaveButtonClicked" />
-            <Button Grid.Column="1"
-                    Text="Delete"
-                    Clicked="OnDeleteButtonClicked"/>
-        </Grid>
     </StackLayout>
 </ContentPage>
