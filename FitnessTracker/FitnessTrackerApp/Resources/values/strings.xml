@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FitnessTrackerApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="viewEditWorkouts">View/Edit Workouts</string>
+</resources>
